@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFC24FE61D2756E100AF4944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC24FE51D2756E100AF4944 /* AppDelegate.swift */; };
+		DFC24FE81D2756E100AF4944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC24FE71D2756E100AF4944 /* ViewController.swift */; };
+		DFC24FEB1D2756E100AF4944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC24FE91D2756E100AF4944 /* Main.storyboard */; };
+		DFC24FED1D2756E100AF4944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC24FEC1D2756E100AF4944 /* Assets.xcassets */; };
+		DFC24FF01D2756E100AF4944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC24FEE1D2756E100AF4944 /* LaunchScreen.storyboard */; };
+		DFC24FFB1D2756E100AF4944 /* yunluwangAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC24FFA1D2756E100AF4944 /* yunluwangAPPTests.swift */; };
+		DFC250061D2756E100AF4944 /* yunluwangAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250051D2756E100AF4944 /* yunluwangAPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFC24FF71D2756E100AF4944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFC24FDA1D2756E100AF4944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFC24FE11D2756E100AF4944;
+			remoteInfo = yunluwangAPP;
+		};
+		DFC250021D2756E100AF4944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFC24FDA1D2756E100AF4944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFC24FE11D2756E100AF4944;
+			remoteInfo = yunluwangAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFC24FE21D2756E100AF4944 /* yunluwangAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yunluwangAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC24FE51D2756E100AF4944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFC24FE71D2756E100AF4944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFC24FEA1D2756E100AF4944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFC24FEC1D2756E100AF4944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFC24FEF1D2756E100AF4944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFC24FF11D2756E100AF4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC24FF61D2756E100AF4944 /* yunluwangAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yunluwangAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC24FFA1D2756E100AF4944 /* yunluwangAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yunluwangAPPTests.swift; sourceTree = "<group>"; };
+		DFC24FFC1D2756E100AF4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC250011D2756E100AF4944 /* yunluwangAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yunluwangAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC250051D2756E100AF4944 /* yunluwangAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yunluwangAPPUITests.swift; sourceTree = "<group>"; };
+		DFC250071D2756E100AF4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFC24FDF1D2756E100AF4944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC24FF31D2756E100AF4944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC24FFE1D2756E100AF4944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFC24FD91D2756E100AF4944 = {
+			isa = PBXGroup;
+			children = (
+				DFC24FE41D2756E100AF4944 /* yunluwangAPP */,
+				DFC24FF91D2756E100AF4944 /* yunluwangAPPTests */,
+				DFC250041D2756E100AF4944 /* yunluwangAPPUITests */,
+				DFC24FE31D2756E100AF4944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFC24FE31D2756E100AF4944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFC24FE21D2756E100AF4944 /* yunluwangAPP.app */,
+				DFC24FF61D2756E100AF4944 /* yunluwangAPPTests.xctest */,
+				DFC250011D2756E100AF4944 /* yunluwangAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFC24FE41D2756E100AF4944 /* yunluwangAPP */ = {
+			isa = PBXGroup;
+			children = (
+				DFC24FE51D2756E100AF4944 /* AppDelegate.swift */,
+				DFC24FE71D2756E100AF4944 /* ViewController.swift */,
+				DFC24FE91D2756E100AF4944 /* Main.storyboard */,
+				DFC24FEC1D2756E100AF4944 /* Assets.xcassets */,
+				DFC24FEE1D2756E100AF4944 /* LaunchScreen.storyboard */,
+				DFC24FF11D2756E100AF4944 /* Info.plist */,
+			);
+			path = yunluwangAPP;
+			sourceTree = "<group>";
+		};
+		DFC24FF91D2756E100AF4944 /* yunluwangAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFC24FFA1D2756E100AF4944 /* yunluwangAPPTests.swift */,
+				DFC24FFC1D2756E100AF4944 /* Info.plist */,
+			);
+			path = yunluwangAPPTests;
+			sourceTree = "<group>";
+		};
+		DFC250041D2756E100AF4944 /* yunluwangAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFC250051D2756E100AF4944 /* yunluwangAPPUITests.swift */,
+				DFC250071D2756E100AF4944 /* Info.plist */,
+			);
+			path = yunluwangAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFC24FE11D2756E100AF4944 /* yunluwangAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC2500A1D2756E100AF4944 /* Build configuration list for PBXNativeTarget "yunluwangAPP" */;
+			buildPhases = (
+				DFC24FDE1D2756E100AF4944 /* Sources */,
+				DFC24FDF1D2756E100AF4944 /* Frameworks */,
+				DFC24FE01D2756E100AF4944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yunluwangAPP;
+			productName = yunluwangAPP;
+			productReference = DFC24FE21D2756E100AF4944 /* yunluwangAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFC24FF51D2756E100AF4944 /* yunluwangAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC2500D1D2756E100AF4944 /* Build configuration list for PBXNativeTarget "yunluwangAPPTests" */;
+			buildPhases = (
+				DFC24FF21D2756E100AF4944 /* Sources */,
+				DFC24FF31D2756E100AF4944 /* Frameworks */,
+				DFC24FF41D2756E100AF4944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFC24FF81D2756E100AF4944 /* PBXTargetDependency */,
+			);
+			name = yunluwangAPPTests;
+			productName = yunluwangAPPTests;
+			productReference = DFC24FF61D2756E100AF4944 /* yunluwangAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFC250001D2756E100AF4944 /* yunluwangAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC250101D2756E100AF4944 /* Build configuration list for PBXNativeTarget "yunluwangAPPUITests" */;
+			buildPhases = (
+				DFC24FFD1D2756E100AF4944 /* Sources */,
+				DFC24FFE1D2756E100AF4944 /* Frameworks */,
+				DFC24FFF1D2756E100AF4944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFC250031D2756E100AF4944 /* PBXTargetDependency */,
+			);
+			name = yunluwangAPPUITests;
+			productName = yunluwangAPPUITests;
+			productReference = DFC250011D2756E100AF4944 /* yunluwangAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFC24FDA1D2756E100AF4944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WYL;
+				TargetAttributes = {
+					DFC24FE11D2756E100AF4944 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9TP7NLYBD2;
+					};
+					DFC24FF51D2756E100AF4944 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9TP7NLYBD2;
+						TestTargetID = DFC24FE11D2756E100AF4944;
+					};
+					DFC250001D2756E100AF4944 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9TP7NLYBD2;
+						TestTargetID = DFC24FE11D2756E100AF4944;
+					};
+				};
+			};
+			buildConfigurationList = DFC24FDD1D2756E100AF4944 /* Build configuration list for PBXProject "yunluwangAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFC24FD91D2756E100AF4944;
+			productRefGroup = DFC24FE31D2756E100AF4944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFC24FE11D2756E100AF4944 /* yunluwangAPP */,
+				DFC24FF51D2756E100AF4944 /* yunluwangAPPTests */,
+				DFC250001D2756E100AF4944 /* yunluwangAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFC24FE01D2756E100AF4944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC24FF01D2756E100AF4944 /* LaunchScreen.storyboard in Resources */,
+				DFC24FED1D2756E100AF4944 /* Assets.xcassets in Resources */,
+				DFC24FEB1D2756E100AF4944 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC24FF41D2756E100AF4944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC24FFF1D2756E100AF4944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFC24FDE1D2756E100AF4944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC24FE81D2756E100AF4944 /* ViewController.swift in Sources */,
+				DFC24FE61D2756E100AF4944 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC24FF21D2756E100AF4944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC24FFB1D2756E100AF4944 /* yunluwangAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC24FFD1D2756E100AF4944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC250061D2756E100AF4944 /* yunluwangAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFC24FF81D2756E100AF4944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFC24FE11D2756E100AF4944 /* yunluwangAPP */;
+			targetProxy = DFC24FF71D2756E100AF4944 /* PBXContainerItemProxy */;
+		};
+		DFC250031D2756E100AF4944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFC24FE11D2756E100AF4944 /* yunluwangAPP */;
+			targetProxy = DFC250021D2756E100AF4944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFC24FE91D2756E100AF4944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC24FEA1D2756E100AF4944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFC24FEE1D2756E100AF4944 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC24FEF1D2756E100AF4944 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFC250081D2756E100AF4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFC250091D2756E100AF4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFC2500B1D2756E100AF4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yunluwangAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YCD.yunluwangAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFC2500C1D2756E100AF4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yunluwangAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YCD.yunluwangAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFC2500E1D2756E100AF4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yunluwangAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YCD.yunluwangAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yunluwangAPP.app/yunluwangAPP";
+			};
+			name = Debug;
+		};
+		DFC2500F1D2756E100AF4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yunluwangAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YCD.yunluwangAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yunluwangAPP.app/yunluwangAPP";
+			};
+			name = Release;
+		};
+		DFC250111D2756E100AF4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yunluwangAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YCD.yunluwangAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yunluwangAPP;
+			};
+			name = Debug;
+		};
+		DFC250121D2756E100AF4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yunluwangAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YCD.yunluwangAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yunluwangAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFC24FDD1D2756E100AF4944 /* Build configuration list for PBXProject "yunluwangAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC250081D2756E100AF4944 /* Debug */,
+				DFC250091D2756E100AF4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC2500A1D2756E100AF4944 /* Build configuration list for PBXNativeTarget "yunluwangAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC2500B1D2756E100AF4944 /* Debug */,
+				DFC2500C1D2756E100AF4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFC2500D1D2756E100AF4944 /* Build configuration list for PBXNativeTarget "yunluwangAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC2500E1D2756E100AF4944 /* Debug */,
+				DFC2500F1D2756E100AF4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFC250101D2756E100AF4944 /* Build configuration list for PBXNativeTarget "yunluwangAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC250111D2756E100AF4944 /* Debug */,
+				DFC250121D2756E100AF4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFC24FDA1D2756E100AF4944 /* Project object */;
+}
