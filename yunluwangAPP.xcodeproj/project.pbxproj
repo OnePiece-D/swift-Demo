@@ -7,13 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFC24FE61D2756E100AF4944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC24FE51D2756E100AF4944 /* AppDelegate.swift */; };
-		DFC24FE81D2756E100AF4944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC24FE71D2756E100AF4944 /* ViewController.swift */; };
 		DFC24FEB1D2756E100AF4944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC24FE91D2756E100AF4944 /* Main.storyboard */; };
 		DFC24FED1D2756E100AF4944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC24FEC1D2756E100AF4944 /* Assets.xcassets */; };
 		DFC24FF01D2756E100AF4944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC24FEE1D2756E100AF4944 /* LaunchScreen.storyboard */; };
 		DFC24FFB1D2756E100AF4944 /* yunluwangAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC24FFA1D2756E100AF4944 /* yunluwangAPPTests.swift */; };
 		DFC250061D2756E100AF4944 /* yunluwangAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250051D2756E100AF4944 /* yunluwangAPPUITests.swift */; };
+		DFC2501F1D2758F600AF4944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2501E1D2758F600AF4944 /* AppDelegate.swift */; };
+		DFC250231D27598D00AF4944 /* WYLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250221D27598D00AF4944 /* WYLBaseViewController.swift */; };
+		DFC250241D27598D00AF4944 /* WYLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250221D27598D00AF4944 /* WYLBaseViewController.swift */; };
+		DFC250251D27598D00AF4944 /* WYLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250221D27598D00AF4944 /* WYLBaseViewController.swift */; };
+		DFC250271D2759D700AF4944 /* WYLColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250261D2759D700AF4944 /* WYLColorManager.swift */; };
+		DFC250281D2759D700AF4944 /* WYLColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250261D2759D700AF4944 /* WYLColorManager.swift */; };
+		DFC250291D2759D700AF4944 /* WYLColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250261D2759D700AF4944 /* WYLColorManager.swift */; };
+		DFC2502B1D275ACD00AF4944 /* BaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2502A1D275ACD00AF4944 /* BaseConfig.swift */; };
+		DFC2502C1D275ACD00AF4944 /* BaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2502A1D275ACD00AF4944 /* BaseConfig.swift */; };
+		DFC2502D1D275ACD00AF4944 /* BaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2502A1D275ACD00AF4944 /* BaseConfig.swift */; };
+		DFC250331D27662000AF4944 /* WYLIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250321D27662000AF4944 /* WYLIndexViewController.swift */; };
+		DFC250341D27662000AF4944 /* WYLIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250321D27662000AF4944 /* WYLIndexViewController.swift */; };
+		DFC250351D27662000AF4944 /* WYLIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250321D27662000AF4944 /* WYLIndexViewController.swift */; };
+		DFC250371D27662900AF4944 /* WYLInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250361D27662900AF4944 /* WYLInfoViewController.swift */; };
+		DFC250381D27662900AF4944 /* WYLInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250361D27662900AF4944 /* WYLInfoViewController.swift */; };
+		DFC250391D27662900AF4944 /* WYLInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250361D27662900AF4944 /* WYLInfoViewController.swift */; };
+		DFC2503B1D27663000AF4944 /* WYLMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2503A1D27663000AF4944 /* WYLMineViewController.swift */; };
+		DFC2503C1D27663000AF4944 /* WYLMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2503A1D27663000AF4944 /* WYLMineViewController.swift */; };
+		DFC2503D1D27663000AF4944 /* WYLMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2503A1D27663000AF4944 /* WYLMineViewController.swift */; };
+		DFC2503F1D27671D00AF4944 /* WYLCustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2503E1D27671D00AF4944 /* WYLCustomTabBarController.swift */; };
+		DFC250401D27671D00AF4944 /* WYLCustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2503E1D27671D00AF4944 /* WYLCustomTabBarController.swift */; };
+		DFC250411D27671D00AF4944 /* WYLCustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2503E1D27671D00AF4944 /* WYLCustomTabBarController.swift */; };
+		DFC250431D27674A00AF4944 /* TabBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250421D27674A00AF4944 /* TabBarConfig.swift */; };
+		DFC250441D27674A00AF4944 /* TabBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250421D27674A00AF4944 /* TabBarConfig.swift */; };
+		DFC250451D27674A00AF4944 /* TabBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250421D27674A00AF4944 /* TabBarConfig.swift */; };
+		DFC250471D27743E00AF4944 /* WYLCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250461D27743E00AF4944 /* WYLCircleImageView.swift */; };
+		DFC250481D279DFA00AF4944 /* WYLCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250461D27743E00AF4944 /* WYLCircleImageView.swift */; };
+		DFC250491D279DFB00AF4944 /* WYLCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250461D27743E00AF4944 /* WYLCircleImageView.swift */; };
+		DFC2504C1D27CCAA00AF4944 /* UIView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2504A1D27BD8100AF4944 /* UIView+Category.swift */; };
+		DFC2504D1D27CCC900AF4944 /* UIView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2504A1D27BD8100AF4944 /* UIView+Category.swift */; };
+		DFC2504E1D27CCC900AF4944 /* UIView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2504A1D27BD8100AF4944 /* UIView+Category.swift */; };
+		DFC250501D27CE8800AF4944 /* WYLBannerDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2504F1D27CE8800AF4944 /* WYLBannerDetailController.swift */; };
+		DFC250511D27CE8800AF4944 /* WYLBannerDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2504F1D27CE8800AF4944 /* WYLBannerDetailController.swift */; };
+		DFC250521D27CE8800AF4944 /* WYLBannerDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2504F1D27CE8800AF4944 /* WYLBannerDetailController.swift */; };
+		DFC250541D27CF4C00AF4944 /* WYLNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250531D27CF4C00AF4944 /* WYLNaviController.swift */; };
+		DFC250551D27CF4C00AF4944 /* WYLNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250531D27CF4C00AF4944 /* WYLNaviController.swift */; };
+		DFC250561D27CF4C00AF4944 /* WYLNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC250531D27CF4C00AF4944 /* WYLNaviController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +70,30 @@
 
 /* Begin PBXFileReference section */
 		DFC24FE21D2756E100AF4944 /* yunluwangAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yunluwangAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFC24FE51D2756E100AF4944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFC24FE71D2756E100AF4944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFC24FEA1D2756E100AF4944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFC24FEC1D2756E100AF4944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFC24FEC1D2756E100AF4944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		DFC24FEF1D2756E100AF4944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DFC24FF11D2756E100AF4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC24FF11D2756E100AF4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		DFC24FF61D2756E100AF4944 /* yunluwangAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yunluwangAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC24FFA1D2756E100AF4944 /* yunluwangAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yunluwangAPPTests.swift; sourceTree = "<group>"; };
 		DFC24FFC1D2756E100AF4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFC250011D2756E100AF4944 /* yunluwangAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yunluwangAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC250051D2756E100AF4944 /* yunluwangAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yunluwangAPPUITests.swift; sourceTree = "<group>"; };
 		DFC250071D2756E100AF4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC2501D1D2758F600AF4944 /* yunluwangAPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yunluwangAPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFC2501E1D2758F600AF4944 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFC250221D27598D00AF4944 /* WYLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLBaseViewController.swift; sourceTree = "<group>"; };
+		DFC250261D2759D700AF4944 /* WYLColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLColorManager.swift; sourceTree = "<group>"; };
+		DFC2502A1D275ACD00AF4944 /* BaseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseConfig.swift; sourceTree = "<group>"; };
+		DFC250321D27662000AF4944 /* WYLIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLIndexViewController.swift; sourceTree = "<group>"; };
+		DFC250361D27662900AF4944 /* WYLInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLInfoViewController.swift; sourceTree = "<group>"; };
+		DFC2503A1D27663000AF4944 /* WYLMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLMineViewController.swift; sourceTree = "<group>"; };
+		DFC2503E1D27671D00AF4944 /* WYLCustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLCustomTabBarController.swift; sourceTree = "<group>"; };
+		DFC250421D27674A00AF4944 /* TabBarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarConfig.swift; sourceTree = "<group>"; };
+		DFC250461D27743E00AF4944 /* WYLCircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLCircleImageView.swift; sourceTree = "<group>"; };
+		DFC2504A1D27BD8100AF4944 /* UIView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Category.swift"; sourceTree = "<group>"; };
+		DFC2504F1D27CE8800AF4944 /* WYLBannerDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLBannerDetailController.swift; sourceTree = "<group>"; };
+		DFC250531D27CF4C00AF4944 /* WYLNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYLNaviController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +144,11 @@
 		DFC24FE41D2756E100AF4944 /* yunluwangAPP */ = {
 			isa = PBXGroup;
 			children = (
-				DFC24FE51D2756E100AF4944 /* AppDelegate.swift */,
-				DFC24FE71D2756E100AF4944 /* ViewController.swift */,
-				DFC24FE91D2756E100AF4944 /* Main.storyboard */,
-				DFC24FEC1D2756E100AF4944 /* Assets.xcassets */,
-				DFC24FEE1D2756E100AF4944 /* LaunchScreen.storyboard */,
-				DFC24FF11D2756E100AF4944 /* Info.plist */,
+				DFC2501C1D27587100AF4944 /* SystemSource */,
+				DFC250131D27583400AF4944 /* Application */,
+				DFC250141D27583400AF4944 /* Framework */,
+				DFC250181D27583400AF4944 /* Source */,
+				DFC250191D27583400AF4944 /* Tool */,
 			);
 			path = yunluwangAPP;
 			sourceTree = "<group>";
@@ -123,6 +169,115 @@
 				DFC250071D2756E100AF4944 /* Info.plist */,
 			);
 			path = yunluwangAPPUITests;
+			sourceTree = "<group>";
+		};
+		DFC250131D27583400AF4944 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2501E1D2758F600AF4944 /* AppDelegate.swift */,
+				DFC2501D1D2758F600AF4944 /* yunluwangAPP-Bridging-Header.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DFC250141D27583400AF4944 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				DFC250211D27595700AF4944 /* Base */,
+				DFC250201D27593300AF4944 /* Common */,
+				DFC250151D27583400AF4944 /* Index */,
+				DFC250161D27583400AF4944 /* Info */,
+				DFC250171D27583400AF4944 /* Mine */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		DFC250151D27583400AF4944 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				DFC250321D27662000AF4944 /* WYLIndexViewController.swift */,
+				DFC2504F1D27CE8800AF4944 /* WYLBannerDetailController.swift */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		DFC250161D27583400AF4944 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				DFC250361D27662900AF4944 /* WYLInfoViewController.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		DFC250171D27583400AF4944 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2503A1D27663000AF4944 /* WYLMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		DFC250181D27583400AF4944 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DFC250191D27583400AF4944 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2501A1D27583400AF4944 /* Category */,
+				DFC2501B1D27583400AF4944 /* EasyWork */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		DFC2501A1D27583400AF4944 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2504A1D27BD8100AF4944 /* UIView+Category.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DFC2501B1D27583400AF4944 /* EasyWork */ = {
+			isa = PBXGroup;
+			children = (
+				DFC250261D2759D700AF4944 /* WYLColorManager.swift */,
+			);
+			path = EasyWork;
+			sourceTree = "<group>";
+		};
+		DFC2501C1D27587100AF4944 /* SystemSource */ = {
+			isa = PBXGroup;
+			children = (
+				DFC24FE91D2756E100AF4944 /* Main.storyboard */,
+				DFC24FEC1D2756E100AF4944 /* Assets.xcassets */,
+				DFC24FEE1D2756E100AF4944 /* LaunchScreen.storyboard */,
+				DFC24FF11D2756E100AF4944 /* Info.plist */,
+			);
+			path = SystemSource;
+			sourceTree = "<group>";
+		};
+		DFC250201D27593300AF4944 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DFC250461D27743E00AF4944 /* WYLCircleImageView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DFC250211D27595700AF4944 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DFC250221D27598D00AF4944 /* WYLBaseViewController.swift */,
+				DFC2502A1D275ACD00AF4944 /* BaseConfig.swift */,
+				DFC2503E1D27671D00AF4944 /* WYLCustomTabBarController.swift */,
+				DFC250421D27674A00AF4944 /* TabBarConfig.swift */,
+				DFC250531D27CF4C00AF4944 /* WYLNaviController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +342,7 @@
 		DFC24FDA1D2756E100AF4944 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WYL;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = WYL;
@@ -259,8 +415,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFC24FE81D2756E100AF4944 /* ViewController.swift in Sources */,
-				DFC24FE61D2756E100AF4944 /* AppDelegate.swift in Sources */,
+				DFC2504C1D27CCAA00AF4944 /* UIView+Category.swift in Sources */,
+				DFC250471D27743E00AF4944 /* WYLCircleImageView.swift in Sources */,
+				DFC2502B1D275ACD00AF4944 /* BaseConfig.swift in Sources */,
+				DFC2503B1D27663000AF4944 /* WYLMineViewController.swift in Sources */,
+				DFC2503F1D27671D00AF4944 /* WYLCustomTabBarController.swift in Sources */,
+				DFC250231D27598D00AF4944 /* WYLBaseViewController.swift in Sources */,
+				DFC250271D2759D700AF4944 /* WYLColorManager.swift in Sources */,
+				DFC250331D27662000AF4944 /* WYLIndexViewController.swift in Sources */,
+				DFC250431D27674A00AF4944 /* TabBarConfig.swift in Sources */,
+				DFC250371D27662900AF4944 /* WYLInfoViewController.swift in Sources */,
+				DFC250541D27CF4C00AF4944 /* WYLNaviController.swift in Sources */,
+				DFC2501F1D2758F600AF4944 /* AppDelegate.swift in Sources */,
+				DFC250501D27CE8800AF4944 /* WYLBannerDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +435,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC250481D279DFA00AF4944 /* WYLCircleImageView.swift in Sources */,
+				DFC2504D1D27CCC900AF4944 /* UIView+Category.swift in Sources */,
+				DFC2502C1D275ACD00AF4944 /* BaseConfig.swift in Sources */,
+				DFC2503C1D27663000AF4944 /* WYLMineViewController.swift in Sources */,
+				DFC250401D27671D00AF4944 /* WYLCustomTabBarController.swift in Sources */,
+				DFC250241D27598D00AF4944 /* WYLBaseViewController.swift in Sources */,
+				DFC250281D2759D700AF4944 /* WYLColorManager.swift in Sources */,
+				DFC250341D27662000AF4944 /* WYLIndexViewController.swift in Sources */,
+				DFC250441D27674A00AF4944 /* TabBarConfig.swift in Sources */,
+				DFC250381D27662900AF4944 /* WYLInfoViewController.swift in Sources */,
+				DFC250551D27CF4C00AF4944 /* WYLNaviController.swift in Sources */,
 				DFC24FFB1D2756E100AF4944 /* yunluwangAPPTests.swift in Sources */,
+				DFC250511D27CE8800AF4944 /* WYLBannerDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +455,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC250491D279DFB00AF4944 /* WYLCircleImageView.swift in Sources */,
+				DFC2504E1D27CCC900AF4944 /* UIView+Category.swift in Sources */,
+				DFC2502D1D275ACD00AF4944 /* BaseConfig.swift in Sources */,
+				DFC2503D1D27663000AF4944 /* WYLMineViewController.swift in Sources */,
+				DFC250411D27671D00AF4944 /* WYLCustomTabBarController.swift in Sources */,
+				DFC250251D27598D00AF4944 /* WYLBaseViewController.swift in Sources */,
+				DFC250291D2759D700AF4944 /* WYLColorManager.swift in Sources */,
+				DFC250351D27662000AF4944 /* WYLIndexViewController.swift in Sources */,
+				DFC250451D27674A00AF4944 /* TabBarConfig.swift in Sources */,
+				DFC250391D27662900AF4944 /* WYLInfoViewController.swift in Sources */,
+				DFC250561D27CF4C00AF4944 /* WYLNaviController.swift in Sources */,
 				DFC250061D2756E100AF4944 /* yunluwangAPPUITests.swift in Sources */,
+				DFC250521D27CE8800AF4944 /* WYLBannerDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +493,7 @@
 				DFC24FEA1D2756E100AF4944 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DFC24FEE1D2756E100AF4944 /* LaunchScreen.storyboard */ = {
@@ -310,6 +502,7 @@
 				DFC24FEF1D2756E100AF4944 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -404,10 +597,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = yunluwangAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YCD.yunluwangAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = yunluwangAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yunluwangAPP/Application/yunluwangAPP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -415,10 +611,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = yunluwangAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YCD.yunluwangAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = yunluwangAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yunluwangAPP/Application/yunluwangAPP-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -487,6 +685,7 @@
 				DFC2500C1D2756E100AF4944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFC2500D1D2756E100AF4944 /* Build configuration list for PBXNativeTarget "yunluwangAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +694,7 @@
 				DFC2500F1D2756E100AF4944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFC250101D2756E100AF4944 /* Build configuration list for PBXNativeTarget "yunluwangAPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +703,7 @@
 				DFC250121D2756E100AF4944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
